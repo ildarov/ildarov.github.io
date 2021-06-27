@@ -1,0 +1,413 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo {
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    color: #fff;
+    line-height: 60px;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title__container {
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+
+}
+
+.title__container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 19px;
+    padding: 0px 16px;
+    margin: 58px 14px 0px 14px
+}
+
+.about_me {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: url(../img/boy_1.png) 50% 35%/auto no-repeat, url(../img/line.jpg) 50% 20%/auto no-repeat, url(../img/bg_2.jpg) center/cover no-repeat;
+    text-align: center;
+}
+
+.about_me h2 {
+
+    margin-top: 108px;
+    font-size: 33px;
+    font-weight: bold;
+    color: #2c384a;
+
+}
+
+.text_1 {
+    margin: 320px 0px 0px 594px;
+    height: 30px;
+    width: 730px;
+    height: 50px;
+    font-size: 18px;
+    color: #3f495a;
+    text-align: left;
+}
+
+.text_2 {
+    margin: 40px 0px 0px 594px;
+    width: 730px;
+    height: 50px;
+    font-size: 18px;
+    color: #3f495a;
+    text-align: left;
+}
+
+.about_me input {
+    font-size: 16px;
+    height: 40px;
+    border: 2px solid #6d7682;
+    background: url(../img/download.png) 12px 50%/auto no-repeat;
+    border-radius: 5px;
+    color: #6d7682;
+    padding: 0px 15px 0px 32px;
+    margin-top: 40px;
+
+
+}
+
+.my_competencies {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: url(../img/line.jpg) 50% 25%/auto no-repeat, url(../img/bg_my_competencies.jpg) center/ no-repeat;
+    text-align: center;
+
+
+}
+
+.my_competencies h2 {
+    font-size: 33px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: #263244;
+
+}
+
+.my_competencies div {
+    display: inline-block;
+    width: 220px;
+    height: 160px;
+    margin: 150px 40px 0 40px;
+
+}
+
+.my_competencies h3 {
+    margin-top: 30px;
+    font-size: 19px;
+    color: #cf7600;
+    font-weight: bold;
+
+}
+
+.my_competencies h4 {
+    margin-top: 20px;
+    font-size: 17px;
+    color: #3f495a;
+
+}
+
+.cases {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.cases h2 {
+
+    margin-top: 100px;
+    font-size: 33px;
+    font-weight: bold;
+    color: #384354;
+
+}
+
+.cases img {
+    margin-top: 30px;
+}
+
+.cases > p {
+    margin-top: 35px;
+    font-size: 16px;
+    color: #3f495a;
+}
+
+.cases_foto {
+    margin-top: 10px;
+}
+
+.client {
+    height: 170px;
+    margin-top: 40px;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.client h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #384354;
+    margin-bottom: 15px;
+}
+
+.client p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #3f495a;
+
+}
+
+.client a {
+    background: #63b5ae;
+    color: #fff;
+    padding: 8px 42px 8px 42px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.project_name {
+    display: inline-block;
+    width: 850px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+    vertical-align: top;
+    text-align: left;
+
+
+}
+
+.project_name h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #384354;
+    margin-bottom: 10px;
+}
+
+.project_name p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #3f495a;
+
+}
+
+.price {
+    height: 850px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.price h2 {
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 52px;
+
+}
+
+.price p {
+    font-size: 29px;
+    text-align: left;
+    margin: 20px 0px 20px 500px;
+}
+
+.price select {
+    width: 891px;
+    height: 57px;
+    background: #eeeeee;
+    border-radius: 10px;
+    padding-left: 30px;
+    color: #737373;
+}
+
+.statistic {
+    float: left;
+    width: 100%;
+    height: 500px;
+    background: URL(../img/bg_statistic.jpg) center no-repeat;
+    text-align: center;
+
+}
+
+.statistic h2 {
+    font-size: 22px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: #263244;
+
+}
+
+
+.statistic>img {
+    margin-top: 30px;
+    
+}
+
+.statistic div {
+    display: inline-block;
+    margin: 50px 75px 0px 75px;
+}
+
+.st_number{
+    margin-top: 30px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #323d4f;
+}
+.st_text {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #323d4f;
+    font-weight: bold;
+    
+}
+
+.feedback {
+    float: left;
+    width: 100%;
+    height: 592px;
+    text-align: center;
+    
+}
+.feedback h2 {
+    margin-top: 104px;
+    font-size: 22px;
+    color: #233042;
+    font-weight: bold;
+}
+
+.feedback_line {
+    margin-top: 32px;
+}
+
+.feedback img {
+    margin-top: 58px;
+}
+
+.feedback p {
+    margin-top: 38px;
+    color: #243042;
+    
+}
+
+.client {
+    margin-top: 38px;
+}
+
+.feedback span {
+    
+    font-weight: bold;
+}
+
+.contacts {
+    float: left;
+    width: 100%;
+    height: 808px;
+    background: url(../img/bg_contacts.jpg) center no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.contacts h2 {
+    margin: 105px 0px 32px 0px;
+    font-size: 23px;
+    }
+
+
+
+.contacts div {
+    margin-top: 48px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contacts p {
+    margin: 13px 50px 0px 50px;
+}
+
+.contacts h3 {
+    margin: 39px 0px 46px 0px;
+    font-weight: bold;
+}
+
+.input_text input {
+    background: #d2d6dc;
+    width: 352px;
+    height: 34px;
+    margin: 0px 14px 14px 14px;
+    padding-left: 14px;
+}
+.contacts textarea {
+    width: 736px;
+    background: #d2d6dc;
+    padding: 10px 0px 0px 12px;
+}
+
+.contacts_submit {
+    background: 
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height:96px;
+    background: #354051;
+    text-align: center;
+    color: #ffffff;
+}
+.footer_h {
+    line-height: 96px;
+    font-size: 16px;
+}
